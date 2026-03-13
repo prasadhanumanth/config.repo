@@ -1,7 +1,7 @@
 spring:
  global-message: Welcome to customer service dev environment
  datasource: 
-  url: jdbc:mysql://localhost:3306/cust-dev
+  url: jdbc:mysql://localhost:3306/customer-master
   username: root
   password: root
 jpa:
