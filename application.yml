@@ -1,0 +1,13 @@
+global:
+ message-name: Welcome to Global MicroService Environment
+loggin:
+ level:
+  root: INFO
+management:
+ endpoints:
+  web:
+   exposure:
+    include: health,info,refresh
+  endpoint:
+   health:
+    show-details: always
