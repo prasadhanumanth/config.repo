@@ -1,9 +1,5 @@
 spring:
  global-message: Welcome to order service dev environment
-server:
- port : 8084
-message: Hello from Dev order service
-spring:
  datasource: 
   url: jdbc:mysql://localhost:3306/order-dev
   username: root
@@ -12,3 +8,6 @@ jpa:
  hibenate:
   ddl-auto : update
   show-sql: true
+server:
+ port : 8084
+message: Hello from Dev order service
