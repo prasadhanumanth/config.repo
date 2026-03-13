@@ -1,5 +1,5 @@
 spring:
- global-message: Welcome to customer service dev environment
+ global-message: Welcome to order service dev environment
 server:
  port : 8084
 message: Hello from Dev order service
