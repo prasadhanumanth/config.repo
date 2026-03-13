@@ -1,7 +1,7 @@
 spring:
  global-message: Welcome to order service prod environment
  datasource: 
-  url: jdbc:mysql://localhost:3306/order-prod
+  url: jdbc:mysql://localhost:3306/order_prod
   username: root
   password: root
 jpa:
