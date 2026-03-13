@@ -1,6 +1,6 @@
 global:
  message-name: Welcome to Global MicroService Environment
-loggin:
+logging:
  level:
   root: INFO
 management:
