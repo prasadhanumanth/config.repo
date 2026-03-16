@@ -1,13 +1,13 @@
-spring:
- global-message: Welcome to customer service dev environment
- datasource: 
-  url: jdbc:mysql://localhost:3306/customer_master
-  username: root
-  password: root
 jpa:
- hibenate:
-  ddl-auto : update
-  show-sql: true
-server:
- port : 8082
+  hibenate:
+    ddl-auto: update
+    show-sql: true
 message: Hello from Dev customer service
+server:
+  port: 8082
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/customer_master
+    username: root
+  global-message: Welcome to customer service dev environment
