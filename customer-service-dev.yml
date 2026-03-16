@@ -1,6 +1,6 @@
 jpa:
   hibenate:
-    ddl-auto: update
+    ddl-auto: create
     show-sql: true
 message: Hello from Dev customer service
 server:
