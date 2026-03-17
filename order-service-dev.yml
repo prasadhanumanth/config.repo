@@ -1,12 +1,12 @@
 spring:
  global-message: Welcome to order service dev environment
  datasource: 
-  url: jdbc:mysql://localhost:3306/order_master
+  url: jdbc:h2:mem:order_master
   username: root
-  password: root
+  password:
 jpa:
  hibenate:
-  ddl-auto : update
+  ddl-auto : create-drop
   show-sql: true
 server:
  port : 8084
